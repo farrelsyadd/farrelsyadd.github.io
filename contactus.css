@@ -60,7 +60,7 @@ textarea.contact-form-text{
 .contact-form-btn{
     float: right;
     border: 0;
-    background: #34495e;
+    background: rgb(167, 0, 0);
     color: #fff;
     padding: 12px 50px;
     border-radius: 20px;

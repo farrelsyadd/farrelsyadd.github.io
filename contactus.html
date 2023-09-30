@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="contactus.css">
+</head>
+<body>
+    
+
+<div class="contact-section">
+    <h1>contact us</h1>
+    <div class="border"></div>
+    <form class="contact-form" action="https://formspree.io/f/mleyogbn" method="POST"">
+        <input type="text" name="text" class="contact-form-text" placeholder="YourName" required>
+        <input type="email" name="email" class="contact-form-text" placeholder="Your Email" required>
+        <input type="text" name="number" class="contact-form-text" placeholder="Your Phone Number" required>
+        <textarea name="msg" class="contact-form-text" placeholder="Your Message" required></textarea>
+        <input type="submit" class="contact-form-btn" value="Send">
+    </form>
+</div>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    function sendEmail(){
+        Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "username",
+            Password : "password",
+            To : 'them@website.com',
+            From : "you@isp.com",
+            Subject : "This is the subject",
+            Body : "And this is the body"
+        }).then(
+        message => alert(message)
+        );
+    }
+</script>
+
+
+</body>
+</html>

@@ -1,16 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Reenie+Beanie&display=swap');
+
 * {
     padding: 0;
     margin: 0;
 }
 
 body {
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-family: 'Reenie Beanie', cursive;
     text-align: center;
     background-image: url('https://j.top4top.io/p_2827su4n11.jpg');
     background-size: cover;
     text-shadow: 15px;
     color: rgb(8, 6, 2);
+    
 }
 
 header {
@@ -18,7 +21,8 @@ header {
     color: rgb(0, 0, 0);
     padding: 15px;
     text-align: center;
-    
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 30px;
 }
 
 
@@ -28,7 +32,7 @@ header {
     text-align: center;
     text-decoration: none;
     background-position: center;
-    color: white;
+    color: rgb(167, 0, 0);
     border-style: hidden;
     padding: 10px;
     margin: 15px;
@@ -41,7 +45,7 @@ header {
     text-align: center;
     text-decoration: none;
     background-size: cover;
-    color: white;
+    color: rgb(167, 0, 0);
     border-radius: 10px;
     justify-content: space-between;
     padding: 10px;

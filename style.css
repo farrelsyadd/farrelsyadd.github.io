@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -11,12 +12,15 @@ body{
     background-image: url('https://j.top4top.io/p_2827su4n11.jpg');
     background-size: cover;
     background-position: center;
+    font-size: 25px;
 }
 
 footer {
     text-align: center;
     color: #fff;
     border: rgb(167, 0, 0);
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 25px;
 }
 
 li{
@@ -126,6 +130,8 @@ section#hero{
     justify-content: center;
     text-align: center;
     color: #fff;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 25px;
 }
 
 #hero h1{
